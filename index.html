@@ -1,12 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Redirect to franks.games</title>
-  <meta http-equiv="refresh" content="0; url=https://franks.games">
+  <title>Redirecting...</title>
+  <meta http-equiv="refresh" content="3; url=https://franks.games">
+  <style>
+    body {margin:0;background:#000;display:flex;flex-direction:column;align-items:center;justify-content:center;height:100vh;color:#fff;font-family:sans-serif;}
+    .spinner {border:8px solid #333;border-top:8px solid #fff;border-radius:50%;width:60px;height:60px;animation:spin 1s linear infinite;margin-bottom:20px;}
+    @keyframes spin {0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
+  </style>
 </head>
-<body style="margin:0;background:#000;display:flex;align-items:center;justify-content:center;height:100vh;">
+<body>
+  <div class="spinner"></div>
+  <p>Loading franks.games...</p>
   <a href="https://franks.games">
-    <img src="https://franks.games/screenshot.png" alt="franks.games" style="max-width:100%;max-height:100%;">
+    <img src="https://franks.games/screenshot.png" alt="franks.games" style="max-width:90%;max-height:60vh;margin-top:20px;">
   </a>
 </body>
 </html>
